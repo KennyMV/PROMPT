@@ -1,2 +1,2 @@
-# PROMPT
+# PROYECTO
 Grupo #2

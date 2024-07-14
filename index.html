@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Memoria - Deportistas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="Michael Jordan.mp4" type="video/mp4">
+    </video>
+    <div class="overlay">
+        <h1>Juego de Memoria - Deportistas</h1>
+        <p id="timer">Tiempo restante: 60s</p>
+        <div id="gameBoard"></div>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <p>Game Over...🤭</p>
+            <img src="Gameover">
+            <button id="restartGame">Reiniciar Juego</button>
+            <button id="closeGame">Cerrar Juego</button>
+        </div>
+    </div>
+    <div id="winnerModal" class="modal">
+        <div class="modal-content">
+            <span id="closeWinnerModal" class="close">&times;</span>
+            <p>¡Has Ganado! 👍✅</p>
+            <button id="restartGameWinner">Reiniciar Juego</button>
+            <button id="closeGameWinner">Cerrar Juego</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
