@@ -85,7 +85,7 @@ function showGameOverModal() {
 
     
     const gifImage = document.createElement('img');
-    gifImage.src = 'images/gameover.gif';  
+    gifImage.src = 'images/Gameover.gif';  
     gifImage.alt = 'GIF de Game Over';  
     gifImage.classList.add('game-over-gif');  
 
